@@ -24,4 +24,4 @@ def inch_to_meter(inches):
     return meter
 inch = float(input("Enter number of inches: "))
 meter  = inch_to_meter(inch)
-print("{:.2f} inches is {:.4f} meters".format(inch,meter))
+print("{} inches is {:.4f} meters".format(inch,meter))
